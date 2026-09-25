@@ -14,10 +14,10 @@ I am currently building my skills in:
 
 ## My Goals
 
-- Build responsive websites
-- Learn full-stack development
-- Work on real-world projects
-- Build a strong developer portfolio
+Build responsive websites
+ Learn full-stack development
+ Work on real-world projects
+Build a strong developer portfolio
 
 ## Projects
 
