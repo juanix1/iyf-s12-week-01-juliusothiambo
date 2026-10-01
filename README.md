@@ -1,4 +1,4 @@
-# Hi, I'm Julius Othiambo 👋
+# Hi, I'm Julius Othiambo 
 
 ## About Me
 
@@ -26,4 +26,4 @@ My first GitHub project for Season 12.
 
 ---
 
-Thanks for visiting my profile! 🚀
+Thanks for visiting my profile! 
