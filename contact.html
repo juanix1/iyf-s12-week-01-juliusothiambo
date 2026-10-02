@@ -1,82 +1,176 @@
 
-<section>
-    <h1>Contact julias</h1>
-    <p>Feel free to send me a message.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Julius Othiambo for web development and project enquiries.">
+    <title>Contact | Julius Othiambo</title>
+</head>
+<body>
 
-    <form action="#" method="post">
-        <fieldset>
-            <legend>Personal Information</legend>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Let's Connect and Work Together</p>
 
-            <label for="fullname">Full Name:</label>
-            <input
-                type="text"
-                id="fullname"
-                name="fullname"
-                placeholder="Enter your full name"
-                required
-            >
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <br><br>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>
+                Have a question, project idea or opportunity?
+                Send me a message using the form below.
+            </p>
 
-            <label for="email">Email Address:</label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="example@gmail.com"
-                required
-            >
+            <form action="#" method="post">
 
-            <br><br>
+                <fieldset>
+                    <legend>Personal Information</legend>
 
-            <label for="phone">Phone Number:</label>
-            <input
-                type="tel"
-                id="phone"
-                name="phone"
-                placeholder="Enter your phone number"
-            >
-        </fieldset>
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            required>
+                    </p>
 
-        <br>
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@gmail.com"
+                            autocomplete="email"
+                            required>
+                    </p>
 
-        <fieldset>
-            <legend>Your Message</legend>
+                    <p>
+                        <label for="phone">Phone Number:</label><br>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            autocomplete="tel">
+                    </p>
+                </fieldset>
 
-            <label for="subject">Subject:</label>
-            <select id="subject" name="subject" required>
-                <option value="">Choose a subject</option>
-                <option value="general">General Inquiry</option>
-                <option value="web">Web Development</option>
-                <option value="furniture">Furniture and Carpentry</option>
-            </select>
+                <br>
 
-            <br><br>
+                <fieldset>
+                    <legend>Message Details</legend>
 
-            <label for="message">Message:</label>
-            <textarea
-                id="message"
-                name="message"
-                placeholder="Write your message here"
-                minlength="50"
-                required
-            ></textarea>
+                    <p>
+                        <label for="subject">Subject:</label><br>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="furniture">Furniture and Carpentry</option>
+                        </select>
+                    </p>
 
-            <br><br>
+                    <p>
+                        <label for="message">Your Message:</label><br>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            cols="35"
+                            placeholder="Write at least 50 characters..."
+                            minlength="50"
+                            required></textarea>
+                    </p>
+                </fieldset>
 
-            <input
-                type="checkbox"
-                id="newsletter"
-                name="newsletter"
-                value="yes"
-            >
-            <label for="newsletter">
-                Subscribe to my newsletter
-            </label>
-        </fieldset>
+                <br>
 
-        <br>
+                <fieldset>
+                    <legend>Newsletter</legend>
 
-        <button type="submit">Send Message</button>
-    </form>
-</section>
+                    <input
+                        type="checkbox"
+                        id="newsletter"
+                        name="newsletter"
+                        value="yes">
+
+                    <label for="newsletter">
+                        I would like to receive updates and news.
+                    </label>
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Other Ways to Contact Me</h2>
+
+            <address>
+                <p>Email:
+                    <a href="mailto:your-email@example.com">
+                        your-email@example.com
+                    </a>
+                </p>
+
+                <p>Phone:
+                    <a href="tel:+254700000000">
+                        +254 700 000 000
+                    </a>
+                </p>
+            </address>
+
+            <h3>Location and Timezone</h3>
+            <p>Location: Kenya</p>
+            <p>Timezone: East Africa Time (EAT), UTC+3</p>
+        </section>
+
+        <section>
+            <h2>Connect With Me</h2>
+
+            <ul>
+                <li>
+                    <a href="https://github.com/yourusername">
+                        GitHub
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/">
+                        LinkedIn
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/">
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Julius Othiambo. All rights reserved.</p>
+        <p><a href="index.html">Back to Home</a></p>
+    </footer>
+
+</body>
+</html>
