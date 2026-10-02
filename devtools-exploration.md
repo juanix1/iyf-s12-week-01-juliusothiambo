@@ -19,12 +19,16 @@ Website 2: MDN Web Docs
 Website 3: GitHub
 
 1. Five HTML elements:
-   - [Add your observations]
-2. Form and inputs:
-   - [Add the form and input details]
-3. Screenshot:
-   - [Insert your Elements panel screenshot when available]
-
+   1. <h1> — Main heading
+Displays the main heading of a page, such as a page title.
+2. <p> — Paragraph
+Contains a block of text, such as a description or introduction.
+3. <a> — Link
+Creates a clickable link to another page or resource.
+2. Form and inputs
+Username or email: An input for your GitHub username or email address.
+Password: An input for your password.
+Sign in: A button used to submit the form.
 Conclusion
 
 This exploration helped me understand how HTML elements structure web pages, how navigation and forms work, and how browser developer tools can be used to inspect websites.
